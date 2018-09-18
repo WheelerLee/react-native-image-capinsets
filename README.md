@@ -4,7 +4,7 @@ behind the scenes it will generate a `NinePatchDrawable` and set as background f
 
 ## Installation
 
-1. `npm i --save react-native-image-capinsets`
+1. `npm i https://github.com/WheelerLee/react-native-image-capinsets.git --save`
 2. `react-native link react-native-image-capinsets`
 
 

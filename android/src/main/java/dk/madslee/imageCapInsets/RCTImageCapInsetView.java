@@ -30,6 +30,9 @@ public class RCTImageCapInsetView extends ImageView {
     }
 
     public void reload() {
+        if (mUri == null) {
+            return;        
+        }
         final String key = mUri + "-" + mCapInsets.toShortString();
         final RCTImageCache cache = RCTImageCache.getInstance();
 
